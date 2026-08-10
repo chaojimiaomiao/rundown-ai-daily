@@ -32,7 +32,7 @@ body {
 .news-card-image {
   width: 100%;
   display: block;
-  border-radius: 10px;
+  border-radius: 14px;
   object-fit: cover;
 }
 
