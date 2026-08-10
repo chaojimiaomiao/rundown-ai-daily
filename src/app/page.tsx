@@ -25,23 +25,23 @@ const subtitleLines = [
 
 const cards = [
   {
-    src: 'https://coze-coding-project.tos.coze.site/cli_attachment/2026-08-11/1923475687613808_434ca69f496d525f5d3ee225d0dd8bf0_card_01_astra.png',
+    src: '/images/card_01_astra.png',
     alt: 'OpenAI Astra 安全刹车',
   },
   {
-    src: 'https://coze-coding-project.tos.coze.site/cli_attachment/2026-08-11/1923475687613808_fca0d98795ae94c714ce2e2facee7b13_card_02_kimi.png',
+    src: '/images/card_02_kimi.png',
     alt: 'Kimi K3 越狱',
   },
   {
-    src: 'https://coze-coding-project.tos.coze.site/cli_attachment/2026-08-11/1923475687613808_d46c5b4868fc31c6c79ce21c66cd7faa_card_03_mozilla.png',
+    src: '/images/card_03_mozilla.png',
     alt: '开源 AI 追平闭源',
   },
   {
-    src: 'https://coze-coding-project.tos.coze.site/cli_attachment/2026-08-11/1923475687613808_b62ea774af17aaad3f9a4e7984a19256_card_04_roundtable.png',
+    src: '/images/card_04_roundtable.png',
     alt: 'Rundown 团队用 AI',
   },
   {
-    src: 'https://coze-coding-project.tos.coze.site/cli_attachment/2026-08-11/1923475687613808_d1902ef2515bb6a484bf3d0b09f39ed4_card_05_quick_hits.png',
+    src: '/images/card_05_quick_hits.svg',
     alt: 'AI 资讯速览',
   },
 ];
@@ -56,6 +56,7 @@ export default function Home() {
             🧯 OpenAI puts the safety brakes on Astra
           </h1>
           <div className="mt-5 text-[14px] sm:text-[15px] text-[#444] leading-relaxed text-left">
+            <p className="subtitle-item text-[#666] font-medium mb-2">📅 2026年8月10日</p>
             {subtitleLines.map((line, index) => (
               <p key={index} className="subtitle-item">
                 <span className="mr-1">{line.emoji}</span>

@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#16213e;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="bolt" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fbbf24;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f59e0b;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)" rx="14"/>
+  
+  <!-- Lightning bolts -->
+  <g opacity="0.15">
+    <path d="M100 100 L130 200 L110 200 L140 320 L100 220 L120 220 Z" fill="#fbbf24"/>
+    <path d="M300 50 L325 130 L310 130 L335 230 L300 150 L315 150 Z" fill="#fbbf24"/>
+    <path d="M900 80 L930 180 L910 180 L940 300 L900 200 L920 200 Z" fill="#fbbf24"/>
+    <path d="M1050 120 L1075 200 L1060 200 L1085 300 L1050 220 L1065 220 Z" fill="#fbbf24"/>
+    <path d="M200 400 L225 480 L210 480 L235 580 L200 500 L215 500 Z" fill="#fbbf24"/>
+    <path d="M1000 450 L1025 530 L1010 530 L1035 630 L1000 550 L1015 550 Z" fill="#fbbf24"/>
+  </g>
+
+  <!-- Main content -->
+  <text x="600" y="200" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="72" font-weight="bold" fill="#fbbf24">⚡</text>
+  
+  <text x="600" y="310" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="48" font-weight="bold" fill="#ffffff">AI 资讯速览</text>
+  
+  <text x="600" y="380" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="28" fill="#94a3b8">Quick Hits · Lightning Round</text>
+
+  <!-- Divider line -->
+  <line x1="400" y1="420" x2="800" y2="420" stroke="#fbbf24" stroke-width="2" opacity="0.5"/>
+
+  <!-- News items -->
+  <text x="600" y="470" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="22" fill="#e2e8f0">🚗 Elon Musk 透露特斯拉 Terafab 工厂选址德州</text>
+  <text x="600" y="510" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="22" fill="#e2e8f0">🤖 ByteDance 预训练 10T 参数模型</text>
+  <text x="600" y="550" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="22" fill="#e2e8f0"> xAI 发布 Grok Imagine Image 2.0</text>
+  <text x="600" y="590" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="22" fill="#e2e8f0">💬 Anthropic Claude Code 支持跨会话消息</text>
+  <text x="600" y="630" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="22" fill="#e2e8f0"> Sergey Brin 接管 Gemini 开发监督</text>
+</svg>
