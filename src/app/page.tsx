@@ -41,7 +41,7 @@ const cards = [
     alt: 'Rundown 团队用 AI',
   },
   {
-    src: '/images/card_05_quick_hits.svg',
+    src: '/images/card_05_quick_hits.png',
     alt: 'AI 资讯速览',
   },
 ];
