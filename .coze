@@ -2,13 +2,13 @@
 requires = ["nodejs-24"]
 project_type = "web"
 template = "native-static"
-version = "0.0.33"
+version = "0.0.34"
 entrypoint = "index.html"
 
 [dev]
 build = []
-run = ["node", "server.js"]
+run = ["npx", "serve", "-l", "${DEPLOY_RUN_PORT}", "."]
 
 [deploy]
 build = []
-run = ["node", "server.js"]
+run = ["npx", "serve", "-l", "${DEPLOY_RUN_PORT}", "."]
