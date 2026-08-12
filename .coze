@@ -10,3 +10,4 @@ build = []
 
 [deploy]
 build = []
+run = ["node", "server.js"]
