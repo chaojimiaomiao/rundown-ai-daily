@@ -7,8 +7,6 @@ entrypoint = "index.html"
 
 [dev]
 build = []
-run = ["node", "server.js"]
 
 [deploy]
 build = []
-run = ["node", "server.js"]
