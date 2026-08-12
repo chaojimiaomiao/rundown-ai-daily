@@ -1,14 +1,13 @@
 [project]
 requires = ["nodejs-24"]
 project_type = "web"
-template = "native-static"
-version = "0.0.35"
-entrypoint = "index.html"
+template = "node"
+version = "0.0.36"
 
 [dev]
 build = []
 run = ["node", "server.js"]
 
 [deploy]
-build = []
+build = ["sh", "-c", "cp -r images/ dist/images/ 2>/dev/null || true"]
 run = ["node", "server.js"]
